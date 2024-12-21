@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>CV</title>
+</head>
+<body class="font-sans " style="font-family: 'Poppins', sans-serif;">
+    <header class="relative flex items-center justify-between h-12 ml-4 mr-4 mt-6">
+        <!-- Arc en arrière-plan -->
+        <div class="absolute top-[-150px] left-[100px] -z-10">
+            <!-- Effet dégradé avec un arc -->
+            <div class="w-[320px] h-[320px] rounded-full bg-gradient-to-r from-purple-400 via-yellow-300 to-indigo-500 opacity-70 mask-arc"></div>
+        </div>
+        <style>
+            /* Masque pour un effet d'arc circulaire */
+            .mask-arc {
+                -webkit-mask: radial-gradient(circle, transparent 60%, black 65%);
+                mask: radial-gradient(circle, transparent 60%, black 65%);
+            }
+        </style>
+        
+        <!-- Contenu du header -->
+        <div class="flex items-center justify-start">
+            <a href="Index.html" class="flex items-center justify-start">
+                <img src="Image/Logo_site-removebg-preview.png" alt="" srcset="" width="55" height="63" class="ml-4"> &nbsp; 
+                <h2 class="ml-0 text-xl text-white font-bold">Pixel Tech</h2>
+            </a>
+                <h1 class="text-3xl font-bold text-white ml-10">Conception de CV</h1>
+        </div>
+        <div>
+            <a href="#" class="mr-8 text-white">A propos</a>
+            <a href="#" class="mr-8 ml-12 text-white">Contact</a>
+            <a href="Services.html" target="_blank" class="bg-indigo-400 px-4 py-2 rounded-full hover:bg-indigo-500 active:bg-indigo-600 mr-20 ml-20 text-white">
+                Services
+                <i class="fas fa-arrow-right"></i> <!-- Icône de flèche -->
+            </a>
+        </div>
+    </header>
+    
+    <h1 class="text-white text-4xl font-bold mt-12 ml-12 ">Trouvez des CV à votre Image</h1>
+    <br>
+    <!-- Exemples de CV  -->
+    <div class="flex items-center justify-between mr-20">
+        <!--CV Professionnel-->
+        <div class="relative w-80 h-80 ml-20 mt-4">
+            <!-- Rectangle violet -->
+            <div class="absolute inset-0 bg-indigo-950 rounded-lg"></div>
+            <!-- Image superposée -->
+            <img src="Image/CV Professionnel - Copie-modified.png" alt="CV Professionnel" 
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-lg object-cover ">
+            <!-- Texte-->
+            <p class="mt-44 ml-8 relative z-10 text-white text-2xl font-bold">Professionnel
+            </p>
+            <p class="relative ml-8 mr-8 z-10 text-white text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet</p>
+        </div>
+
+        <!--CV Artistique-->
+        <div class="relative w-80 h-80 ml-12 mt-4">
+            <!-- Rectangle violet -->
+            <div class="absolute inset-0 bg-indigo-950 rounded-lg zoom-hover-effect"></div>
+            <!-- Image superposée -->
+            <img src="Image/CV Artistique - Copie-modified.png" alt="CV Artistique" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-lg object-cover">
+            <!-- Texte-->
+            <p class="mt-44 ml-8 relative z-10 text-white text-2xl font-bold">Artistique
+            </p>
+            <p class="relative ml-8 mr-8 z-10 text-white text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet</p>
+        </div>
+    
+        <!--CV Simple-->
+        <div class="relative w-80 h-80 ml-12 mt-4">
+            <!-- Rectangle violet -->
+            <div class="absolute inset-0 bg-indigo-950 rounded-lg"></div>
+            <!-- Image superposée -->
+            <img src="Image/CV Simple - Copie-modified.png" alt="CV Simpliste" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-lg object-cover">
+            <!-- Texte-->
+            <p class="mt-44 ml-8 relative z-10 text-white text-2xl font-bold">Simpliste
+            </p>
+            <p class="relative ml-8 mr-8 z-10 text-white text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet</p>
+        </div>
+    </div>
+    <br>  
+    <!--Voir plus-->
+    <div class="flex items-center h-12 ml-20 ">
+        <div>
+            <a href="#" class="bg-white px-3 py-3 rounded-full hover:bg-gray-400 active:bg-gray-500 mr-20  text-violet-950 ">Voir plus
+            &nbsp; <i class="fas fa-arrow-right px-4 py-3 rounded-3xl bg-violet-950 text-white"></i>
+            </a>
+        </div>
+    </div>
+    
+
+</body>
+</html>
