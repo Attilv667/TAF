@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Accueil</title>
+</head>
+<body class="font-sans " style="font-family: 'Poppins', sans-serif;">
+    <header class="relative flex items-center justify-between h-12 ml-4 mr-4 mt-6">
+        <!-- Arc en arrière-plan -->
+        <div class="absolute top-[-150px] left-[100px] -z-10">
+            <!-- Effet dégradé avec un arc -->
+            <div class="w-[320px] h-[320px] rounded-full bg-gradient-to-r from-purple-400 via-yellow-300 to-indigo-500 opacity-70 mask-arc"></div>
+        </div>
+        <style>
+            /* Masque pour un effet d'arc circulaire */
+            .mask-arc {
+                -webkit-mask: radial-gradient(circle, transparent 60%, black 65%);
+                mask: radial-gradient(circle, transparent 60%, black 65%);
+            }
+        </style>
+        
+        <!-- Contenu du header -->
+        <div class="flex items-center justify-start">
+            <a href="accueil.html" class="flex items-center justify-start">
+                <img src="Image/Logo_site-removebg-preview.png" alt="" srcset="" width="55" height="63" class="ml-4"> &nbsp; 
+                <h2 class="ml-0 text-xl text-white font-bold">Pixel Tech</h2>
+            </a>
+                <h1 class="text-3xl font-bold text-white ml-10">Accueil</h1>
+        </div>
+        <div>
+            <a href="#" class="mr-8 text-white">A propos</a>
+            <a href="#" class="mr-8 ml-12 text-white">Contact</a>
+            <a href="Services.html" target="_blank" class="bg-indigo-400 px-4 py-2 rounded-full hover:bg-indigo-500 active:bg-indigo-600 mr-20 ml-20 text-white">
+                Services
+                <i class="fas fa-arrow-right"></i> <!-- Icône de flèche -->
+            </a>
+        </div>
+    </header>
+
+    <div class="flex items-center justify-between rounded-lg bg-gradient-to-r from-purple-900 via-purple-400 to-yellow-300 m-12">
+        <!-- Conteneur 1-->
+        <div class="p-12 ">
+            <div class="bg-slate-950 rounded-full p-2 inline-block mb-4">
+                <p class=" text-white text-lg ml-2 mr-2">#Digitalisation</p>
+            </div>
+            <br>
+            <h1 class="font-bold text-white text-3xl">Trouvez la solution à vos <br> problèmes informatiques</h1>
+            <br>
+            <p class="text-white text-lg">
+                Nous accompagnons nos clients dans leurs développements web, mobile, et digital. Nous proposons des solutions adaptées à vos besoins, de la conception à l'implémentation. Nous vous aidons à vous orienter vers les technologies les plus adaptées à votre entreprise.
+            </p>
+            <br>
+            <a href="Services.html">
+                <div class="bg-indigo-400 rounded-lg  flex items-center justify-start inline-block mr-80">
+                    <p class="text-white p-3 m-1 text-lg inline-block">Accédez à nos services</p>
+                    <i class="fas fa-arrow-right px-4 py-3 rounded-3xl bg-violet-950 text-white"></i> 
+                </div>
+            </a>
+        </div>
+        <!-- Conteneur 2-->
+        <div class="ml-16 pl-24">
+            <img src="Image/Illustrations3-removebg-preview.png" width="1300" height="1300" alt="" srcset="">
+        </div>
+    </div>
+
+
+</body>
+</html>
